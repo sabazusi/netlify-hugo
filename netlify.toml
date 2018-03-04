@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo"
+command = "hugo --buildDrafts  --theme=hugo_theme_robust"
 
 [context.production.environment]
 HUGO_VERSION = "0.37"
